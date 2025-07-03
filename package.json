@@ -20,6 +20,7 @@
     "axios": "^1.8.3",
     "canvas": "^3.1.0",
     "chart.js": "^4.4.8",
+    "cors": "^2.8.5",
     "csv-stringify": "^6.5.2",
     "expo-server-sdk": "^3.14.0",
     "firebase": "^11.4.0",
