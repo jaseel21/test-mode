@@ -9,7 +9,6 @@ const donationSchema = new mongoose.Schema({
   },
   boxId: { type: String, default: null },
   campaignId: { type: String, default: null },
-  email:{type:String, default:null},
   // period: { type: String, default: null },
   instituteId: { type: String, default: null },
   district: { type: String, default: null },
