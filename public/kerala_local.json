@@ -1,0 +1,1910 @@
+{
+  "districts": [
+    {
+      "name": "Thiruvananthapuram",
+      "code": "D010000",
+      "block_panchayats": [
+        {
+          "name": "Varkala",
+          "grama_panchayats": [
+            {"name": "Chemmaruthy"},
+            {"name": "Edava"},
+            {"name": "Elakamon"},
+            {"name": "Manamboor"},
+            {"name": "Ottoor"},
+            {"name": "Cherunniyoor"},
+            {"name": "Vettoor"}
+          ]
+        },
+        {
+          "name": "Kilimanoor",
+          "grama_panchayats": [
+            {"name": "Kilimanoor"},
+            {"name": "Pazhayakunnumel"},
+            {"name": "Karavaram"},
+            {"name": "Madavoor"},
+            {"name": "Pallickal"},
+            {"name": "Nagaroor"},
+            {"name": "Navaikulam"},
+            {"name": "Pulimath"}
+          ]
+        },
+        {
+          "name": "Chirayinkeezh",
+          "grama_panchayats": [
+            {"name": "Anchuthengu"},
+            {"name": "Vakkom"},
+            {"name": "Chirayinkeezhu"},
+            {"name": "Kizhuvilam"},
+            {"name": "Mudakkal"},
+            {"name": "Kadakkavoor"}
+          ]
+        },
+        {
+          "name": "Vamanapuram",
+          "grama_panchayats": [
+            {"name": "Kallara"},
+            {"name": "Nellanad"},
+            {"name": "Pullampara"},
+            {"name": "Vamanapuram"},
+            {"name": "Pangode"},
+            {"name": "Nanniyode"},
+            {"name": "Peringammala"},
+            {"name": "Manickal"}
+          ]
+        },
+        {
+          "name": "Vellanad",
+          "grama_panchayats": [
+            {"name": "Aryanad"},
+            {"name": "Poovachal"},
+            {"name": "Vellanad"},
+            {"name": "Vithura"},
+            {"name": "Uzhamalakkal"},
+            {"name": "Kuttichal"},
+            {"name": "Tholicode"},
+            {"name": "Kattakada"}
+          ]
+        },
+        {
+          "name": "Nedumangad",
+          "grama_panchayats": [
+            {"name": "Anad"},
+            {"name": "Aruvikkara"},
+            {"name": "Panavoor"},
+            {"name": "Karakulam"},
+            {"name": "Vembayam"}
+          ]
+        },
+        {
+          "name": "Pothencode",
+          "grama_panchayats": [
+            {"name": "Andoorkonam"},
+            {"name": "Kadinamkulam"},
+            {"name": "Mangalapuram"},
+            {"name": "Pothencode"},
+            {"name": "Azhoor"}
+          ]
+        },
+        {
+          "name": "Nemom",
+          "grama_panchayats": [
+            {"name": "Balaramapuram"},
+            {"name": "Pallichal"},
+            {"name": "Maranalloor"},
+            {"name": "Malayinkeezh"},
+            {"name": "Vilappil"},
+            {"name": "Vilavoorkal"},
+            {"name": "Kalliyoor"}
+          ]
+        },
+        {
+          "name": "Perumkadavila",
+          "grama_panchayats": [
+            {"name": "Perumkadavila"},
+            {"name": "Kollayil"},
+            {"name": "Ottasekharamangalam"},
+            {"name": "Aryancode"},
+            {"name": "Kallikkadu"},
+            {"name": "Kunnathukal"},
+            {"name": "Vellarada"},
+            {"name": "Amboori"}
+          ]
+        },
+        {
+          "name": "Athiyannoor",
+          "grama_panchayats": [
+            {"name": "Athiyannoor"},
+            {"name": "Kanjiramkulam"},
+            {"name": "Karumkulam"},
+            {"name": "Kottukal"},
+            {"name": "Venganoor"}
+          ]
+        },
+        {
+          "name": "Parassala",
+          "grama_panchayats": [
+            {"name": "Chenkal"},
+            {"name": "Karode"},
+            {"name": "Kulathoor"},
+            {"name": "Parassala"},
+            {"name": "Thirupuram"},
+            {"name": "Poovar"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipal Corporation", "name": "Thiruvananthapuram"},
+        {"type": "Municipality", "name": "Attingal"},
+        {"type": "Municipality", "name": "Nedumangad"},
+        {"type": "Municipality", "name": "Neyyattinkara"},
+        {"type": "Municipality", "name": "Varkala"}
+      ]
+    },
+    {
+      "name": "Kollam",
+      "code": "D020000",
+      "block_panchayats": [
+        {
+          "name": "Oachira",
+          "grama_panchayats": [
+            {"name": "Oachira"},
+            {"name": "Kulasekharapuram"},
+            {"name": "Clappana"},
+            {"name": "Thazhava"},
+            {"name": "Alappad"},
+            {"name": "Thodiyoor"}
+          ]
+        },
+        {
+          "name": "Sasthamcotta",
+          "grama_panchayats": [
+            {"name": "Sasthamcotta"},
+            {"name": "West Kallada"},
+            {"name": "Sooranad South"},
+            {"name": "Poruvazhy"},
+            {"name": "Kunnathoor"},
+            {"name": "Sooranad North"},
+            {"name": "Mynagappally"}
+          ]
+        },
+        {
+          "name": "Vettikavala",
+          "grama_panchayats": [
+            {"name": "Ummannoor"},
+            {"name": "Vettikavala"},
+            {"name": "Melila"},
+            {"name": "Mylom"},
+            {"name": "Kulakkada"},
+            {"name": "Pavithreswaram"}
+          ]
+        },
+        {
+          "name": "Pathanapuram",
+          "grama_panchayats": [
+            {"name": "Vilakkudy"},
+            {"name": "Thalavoor"},
+            {"name": "Piravanthoor"},
+            {"name": "Pattazhi Vadakkekara"},
+            {"name": "Pattazhi"},
+            {"name": "Pathanapuram"}
+          ]
+        },
+        {
+          "name": "Anchal",
+          "grama_panchayats": [
+            {"name": "Kulathupuzha"},
+            {"name": "Yeroor"},
+            {"name": "Alayamon"},
+            {"name": "Anchal"},
+            {"name": "Edamulackal"},
+            {"name": "Karavaloor"},
+            {"name": "Thenmala"},
+            {"name": "Aryankavu"}
+          ]
+        },
+        {
+          "name": "Kottarakara",
+          "grama_panchayats": [
+            {"name": "Veliyam"},
+            {"name": "Pooyappally"},
+            {"name": "Kareepra"},
+            {"name": "Ezhukone"},
+            {"name": "Neduvathoor"}
+          ]
+        },
+        {
+          "name": "Chittumala",
+          "grama_panchayats": [
+            {"name": "Perinad"},
+            {"name": "Kundara"},
+            {"name": "East Kallada"},
+            {"name": "Perayam"},
+            {"name": "Munroethuruth"},
+            {"name": "Panayam"},
+            {"name": "Thrikkaruva"}
+          ]
+        },
+        {
+          "name": "Chavara",
+          "grama_panchayats": [
+            {"name": "Thekkumbhagom"},
+            {"name": "Chavara"},
+            {"name": "Thevalakkara"},
+            {"name": "Panmana"},
+            {"name": "Neendakara"}
+          ]
+        },
+        {
+          "name": "Mukhathala",
+          "grama_panchayats": [
+            {"name": "Mayyanad"},
+            {"name": "Thrikkovilvattom"},
+            {"name": "Kottamkara"},
+            {"name": "Elampalloor"},
+            {"name": "Nedumpana"}
+          ]
+        },
+        {
+          "name": "Ithikkara",
+          "grama_panchayats": [
+            {"name": "Poothakulam"},
+            {"name": "Kalluvathukkal"},
+            {"name": "Chathannoor"},
+            {"name": "Adichanalloor"},
+            {"name": "Chirakkara"}
+          ]
+        },
+        {
+          "name": "Chadayamangalam",
+          "grama_panchayats": [
+            {"name": "Chithara"},
+            {"name": "Kadakkal"},
+            {"name": "Chadayamangalam"},
+            {"name": "Ittiva"},
+            {"name": "Velinalloor"},
+            {"name": "Elamadu"},
+            {"name": "Nilamel"},
+            {"name": "Kummil"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipal Corporation", "name": "Kollam"},
+        {"type": "Municipality", "name": "Karunagappally"},
+        {"type": "Municipality", "name": "Kottarakara"},
+        {"type": "Municipality", "name": "Paravoor"},
+        {"type": "Municipality", "name": "Punalur"}
+      ]
+    },
+    {
+      "name": "Pathanamthitta",
+      "code": "D030000",
+      "block_panchayats": [
+        {
+          "name": "Mallappally",
+          "grama_panchayats": [
+            {"name": "Anicadu"},
+            {"name": "Kaviyoor"},
+            {"name": "Kottanad"},
+            {"name": "Kottangal"},
+            {"name": "Kallooppara"},
+            {"name": "Kunnamthanam"},
+            {"name": "Mallappally"}
+          ]
+        },
+        {
+          "name": "Pulikeezhu",
+          "grama_panchayats": [
+            {"name": "Kadapra"},
+            {"name": "Kuttoor"},
+            {"name": "Niranam"},
+            {"name": "Nedumpuram"},
+            {"name": "Peringara"}
+          ]
+        },
+        {
+          "name": "Koipuram",
+          "grama_panchayats": [
+            {"name": "Ayroor"},
+            {"name": "Eraviperoor"},
+            {"name": "Koipuram"},
+            {"name": "Thottappuzhassery"},
+            {"name": "Ezhumattoor"},
+            {"name": "Puramattom"}
+          ]
+        },
+        {
+          "name": "Elanthoor",
+          "grama_panchayats": [
+            {"name": "Omalloor"},
+            {"name": "Chenneerkara"},
+            {"name": "Elanthoor"},
+            {"name": "Cherukole"},
+            {"name": "Kozhencherry"},
+            {"name": "Mallappuzhassery"},
+            {"name": "Naranganam"}
+          ]
+        },
+        {
+          "name": "Ranni",
+          "grama_panchayats": [
+            {"name": "Ranni Pazhavangadi"},
+            {"name": "Ranni"},
+            {"name": "Ranni Angadi"},
+            {"name": "Ranni Perunadu"},
+            {"name": "Vadaserikara"},
+            {"name": "Chittar"},
+            {"name": "Seethathodu"},
+            {"name": "Naranammoozhy"},
+            {"name": "Vechoochira"}
+          ]
+        },
+        {
+          "name": "Konni",
+          "grama_panchayats": [
+            {"name": "Konni"},
+            {"name": "Aruvappulam"},
+            {"name": "Pramadom"},
+            {"name": "Mylapra"},
+            {"name": "Vallicode"},
+            {"name": "Thannithodu"},
+            {"name": "Malayalapuzha"}
+          ]
+        },
+        {
+          "name": "Pandalam",
+          "grama_panchayats": [
+            {"name": "Pandalam Thekkekara"},
+            {"name": "Thumpamon"},
+            {"name": "Aranmula"},
+            {"name": "Mezhuveli"},
+            {"name": "Kulanada"}
+          ]
+        },
+        {
+          "name": "Parakkode",
+          "grama_panchayats": [
+            {"name": "Enadimangalam"},
+            {"name": "Erathu"},
+            {"name": "Ezhamkulam"},
+            {"name": "Kadampanad"},
+            {"name": "Kalanjoor"},
+            {"name": "Kodumon"},
+            {"name": "Pallickal"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipality", "name": "Adoor"},
+        {"type": "Municipality", "name": "Pandalam"},
+        {"type": "Municipality", "name": "Pathanamthitta"},
+        {"type": "Municipality", "name": "Thiruvalla"}
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "code": "D040000",
+      "block_panchayats": [
+        {
+          "name": "Thycattussery",
+          "grama_panchayats": [
+            {"name": "Arookutty"},
+            {"name": "Chennam Pallippuram"},
+            {"name": "Panavally"},
+            {"name": "Perumpalam"},
+            {"name": "Thycattussery"}
+          ]
+        },
+        {
+          "name": "Pattanakkad",
+          "grama_panchayats": [
+            {"name": "Vayalar"},
+            {"name": "Pattanakkad"},
+            {"name": "Thuravoor"},
+            {"name": "Kuthiathod"},
+            {"name": "Kodamthuruth"},
+            {"name": "Ezhupunna"},
+            {"name": "Aroor"}
+          ]
+        },
+        {
+          "name": "Kanjikuzhy",
+          "grama_panchayats": [
+            {"name": "Mararikulam North"},
+            {"name": "Kanjikuzhy"},
+            {"name": "Thanneermukkom"},
+            {"name": "Cherthala South"},
+            {"name": "Kadakkarappally"}
+          ]
+        },
+        {
+          "name": "Aryad",
+          "grama_panchayats": [
+            {"name": "Aryad"},
+            {"name": "Mannancherry"},
+            {"name": "Mararikulam South"},
+            {"name": "Muhamma"}
+          ]
+        },
+        {
+          "name": "Ambalappuzha",
+          "grama_panchayats": [
+            {"name": "Purakkad"},
+            {"name": "Ambalappuzha South"},
+            {"name": "Ambalappuzha North"},
+            {"name": "Punnapra South"},
+            {"name": "Punnapra North"}
+          ]
+        },
+        {
+          "name": "Champakulam",
+          "grama_panchayats": [
+            {"name": "Thalavady"},
+            {"name": "Edathua"},
+            {"name": "Thakazhy"},
+            {"name": "Nedumudi"},
+            {"name": "Champakulam"},
+            {"name": "Kainakary"}
+          ]
+        },
+        {
+          "name": "Veliyanad",
+          "grama_panchayats": [
+            {"name": "Muttar"},
+            {"name": "Veliyanad"},
+            {"name": "Neelamperoor"},
+            {"name": "Kavalam"},
+            {"name": "Pulincunnoo"},
+            {"name": "Ramankary"}
+          ]
+        },
+        {
+          "name": "Chengannur",
+          "grama_panchayats": [
+            {"name": "Mulakuzha"},
+            {"name": "Venmoney"},
+            {"name": "Cheriyanad"},
+            {"name": "Ala"},
+            {"name": "Puliyoor"},
+            {"name": "Budhanoor"},
+            {"name": "Pandanad"},
+            {"name": "Thiruvanvandoor"}
+          ]
+        },
+        {
+          "name": "Haripad",
+          "grama_panchayats": [
+            {"name": "Karthikappally"},
+            {"name": "Thrikkunnappuzha"},
+            {"name": "Kumarapuram"},
+            {"name": "Karuvatta"},
+            {"name": "Pallippad"},
+            {"name": "Cheruthana"},
+            {"name": "Veeyapuram"}
+          ]
+        },
+        {
+          "name": "Mavelikara",
+          "grama_panchayats": [
+            {"name": "Mavelikara Thekkekara"},
+            {"name": "Chettikulangara"},
+            {"name": "Chennithala-Thripperumthura"},
+            {"name": "Thazhakara"},
+            {"name": "Mannar"}
+          ]
+        },
+        {
+          "name": "Bharanickavu",
+          "grama_panchayats": [
+            {"name": "Nooranad"},
+            {"name": "Vallikunnam"},
+            {"name": "Bharanickavu"},
+            {"name": "Mavelikara Thamarakulam"},
+            {"name": "Chunakara"},
+            {"name": "Palamel"}
+          ]
+        },
+        {
+          "name": "Muthukulam",
+          "grama_panchayats": [
+            {"name": "Pathiyoor"},
+            {"name": "Kandalloor"},
+            {"name": "Cheppad"},
+            {"name": "Muthukulam"},
+            {"name": "Arattupuzha"},
+            {"name": "Krishnapuram"},
+            {"name": "Devikulangara"},
+            {"name": "Chingoli"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipality", "name": "Alappuzha"},
+        {"type": "Municipality", "name": "Chengannur"},
+        {"type": "Municipality", "name": "Cherthala"},
+        {"type": "Municipality", "name": "Haripad"},
+        {"type": "Municipality", "name": "Kayamkulam"},
+        {"type": "Municipality", "name": "Mavelikkara"}
+      ]
+    },
+    {
+      "name": "Kottayam",
+      "code": "D050000",
+      "block_panchayats": [
+        {
+          "name": "Vaikom",
+          "grama_panchayats": [
+            {"name": "Thalayazham"},
+            {"name": "Chempu"},
+            {"name": "Maravanthuruthu"},
+            {"name": "TV Puram"},
+            {"name": "Vechoor"},
+            {"name": "Udayanapuram"}
+          ]
+        },
+        {
+          "name": "Kaduthuruthy",
+          "grama_panchayats": [
+            {"name": "Kaduthuruthy"},
+            {"name": "Kallara"},
+            {"name": "Mulakulam"},
+            {"name": "Neezhoor"},
+            {"name": "Thalayolaparambu"},
+            {"name": "Velloor"}
+          ]
+        },
+        {
+          "name": "Ettumanoor",
+          "grama_panchayats": [
+            {"name": "Aymanam"},
+            {"name": "Athirampuzha"},
+            {"name": "Arpookara"},
+            {"name": "Neendoor"},
+            {"name": "Kumarakam"},
+            {"name": "Thiruvarppu"}
+          ]
+        },
+        {
+          "name": "Uzhavoor",
+          "grama_panchayats": [
+            {"name": "Kadaplamattom"},
+            {"name": "Marangattupilly"},
+            {"name": "Kanakkary"},
+            {"name": "Veliyannoor"},
+            {"name": "Kuravilangad"},
+            {"name": "Uzhavoor"},
+            {"name": "Ramapuram"},
+            {"name": "Manjoor"}
+          ]
+        },
+        {
+          "name": "Lalam",
+          "grama_panchayats": [
+            {"name": "Bharananganam"},
+            {"name": "Karoor"},
+            {"name": "Kozhuvanal"},
+            {"name": "Kadanad"},
+            {"name": "Meenachil"},
+            {"name": "Mutholy"}
+          ]
+        },
+        {
+          "name": "Erattupetta",
+          "grama_panchayats": [
+            {"name": "Melukavu"},
+            {"name": "Moonnilavu"},
+            {"name": "Poonjar"},
+            {"name": "Poonjar Thekkekara"},
+            {"name": "Thalappalam"},
+            {"name": "Teekoy"},
+            {"name": "Thalanad"},
+            {"name": "Thidanad"}
+          ]
+        },
+        {
+          "name": "Pampady",
+          "grama_panchayats": [
+            {"name": "Akalakunnam"},
+            {"name": "Elikulam"},
+            {"name": "Kooroppada"},
+            {"name": "Pampady"},
+            {"name": "Pallikkathode"},
+            {"name": "Meenadom"},
+            {"name": "Kidangoor"},
+            {"name": "Manarcad"}
+          ]
+        },
+        {
+          "name": "Pallom",
+          "grama_panchayats": [
+            {"name": "Ayarkunnam"},
+            {"name": "Puthuppally"},
+            {"name": "Panachikkad"},
+            {"name": "Vijayapuram"},
+            {"name": "Kurichy"}
+          ]
+        },
+        {
+          "name": "Madappally",
+          "grama_panchayats": [
+            {"name": "Madappally"},
+            {"name": "Paippad"},
+            {"name": "Thrickodithanam"},
+            {"name": "Vakathanam"},
+            {"name": "Vazhappally"}
+          ]
+        },
+        {
+          "name": "Vazhoor",
+          "grama_panchayats": [
+            {"name": "Chirakkadavu"},
+            {"name": "Kangazha"},
+            {"name": "Nedumkunnam"},
+            {"name": "Vellavoor"},
+            {"name": "Vazhoor"},
+            {"name": "Karukachal"}
+          ]
+        },
+        {
+          "name": "Kanjirappally",
+          "grama_panchayats": [
+            {"name": "Erumeli"},
+            {"name": "Kanjirappally"},
+            {"name": "Koottickal"},
+            {"name": "Manimala"},
+            {"name": "Mundakayam"},
+            {"name": "Parathodu"},
+            {"name": "Koruthodu"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipality", "name": "Changanassery"},
+        {"type": "Municipality", "name": "Erattupetta"},
+        {"type": "Municipality", "name": "Ettumanoor"},
+        {"type": "Municipality", "name": "Kottayam"},
+        {"type": "Municipality", "name": "Palai"},
+        {"type": "Municipality", "name": "Vaikom"}
+      ]
+    },
+    {
+      "name": "Idukki",
+      "code": "D060000",
+      "block_panchayats": [
+        {
+          "name": "Adimaly",
+          "grama_panchayats": [
+            {"name": "Adimaly"},
+            {"name": "Konnathady"},
+            {"name": "Bisonvalley"},
+            {"name": "Vellathooval"},
+            {"name": "Pallivasal"}
+          ]
+        },
+        {
+          "name": "Devikulam",
+          "grama_panchayats": [
+            {"name": "Marayoor"},
+            {"name": "Munnar"},
+            {"name": "Kanthalloor"},
+            {"name": "Vattavada"},
+            {"name": "Santhanpara"},
+            {"name": "Chinnakanal"},
+            {"name": "Mankulam"},
+            {"name": "Devikulam"},
+            {"name": "Edamalakudi"}
+          ]
+        },
+        {
+          "name": "Nedumkandam",
+          "grama_panchayats": [
+            {"name": "Pampadumpara"},
+            {"name": "Senapathy"},
+            {"name": "Karunapuram"},
+            {"name": "Rajakkad"},
+            {"name": "Nedumkandam"},
+            {"name": "Udumbanchola"},
+            {"name": "Rajakumary"}
+          ]
+        },
+        {
+          "name": "Elemdesam",
+          "grama_panchayats": [
+            {"name": "Vannappuram"},
+            {"name": "Udumbanoor"},
+            {"name": "Kodikulam"},
+            {"name": "Alakode"},
+            {"name": "Velliyamattom"},
+            {"name": "Karimannoor"},
+            {"name": "Kudayathoor"}
+          ]
+        },
+        {
+          "name": "Idukki",
+          "grama_panchayats": [
+            {"name": "Idukki Kanjikuzhy"},
+            {"name": "Vathikudy"},
+            {"name": "Arakulam"},
+            {"name": "Kamakshy"},
+            {"name": "Vazhathope"},
+            {"name": "Mariyapuram"}
+          ]
+        },
+        {
+          "name": "Kattappana",
+          "grama_panchayats": [
+            {"name": "Upputhara"},
+            {"name": "Vandanmedu"},
+            {"name": "Kanchiyar"},
+            {"name": "Erattayar"},
+            {"name": "Ayyappan Coil"},
+            {"name": "Chakkupallam"}
+          ]
+        },
+        {
+          "name": "Thodupuzha",
+          "grama_panchayats": [
+            {"name": "Muttom"},
+            {"name": "Kumaramangalam"},
+            {"name": "Edavetty"},
+            {"name": "Karimkunnam"},
+            {"name": "Manakkad"},
+            {"name": "Purapuzha"}
+          ]
+        },
+        {
+          "name": "Azhutha",
+          "grama_panchayats": [
+            {"name": "Peruvanthanam"},
+            {"name": "Kumily"},
+            {"name": "Kokkayar"},
+            {"name": "Peermade"},
+            {"name": "Elappara"},
+            {"name": "Vandiperiyar"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipality", "name": "Thodupuzha"}
+      ]
+    },
+    {
+      "name": "Ernakulam",
+      "code": "D070000",
+      "block_panchayats": [
+        {
+          "name": "Paravur",
+          "grama_panchayats": [
+            {"name": "Chendamangalam"},
+            {"name": "Kottuvally"},
+            {"name": "Ezhikkara"},
+            {"name": "Vadakkekkara"},
+            {"name": "Chittattukara"}
+          ]
+        },
+        {
+          "name": "Alangad",
+          "grama_panchayats": [
+            {"name": "Karumallur"},
+            {"name": "Varapuzha"},
+            {"name": "Alangad"},
+            {"name": "Kadungalloor"}
+          ]
+        },
+        {
+          "name": "Angamaly",
+          "grama_panchayats": [
+            {"name": "Mookkannur"},
+            {"name": "Thuravoor"},
+            {"name": "Manjapra"},
+            {"name": "Karukutty"},
+            {"name": "Ayyampuzha"},
+            {"name": "Kanjoor"},
+            {"name": "Kalady"},
+            {"name": "Malayattoor Neeleeswaram"}
+          ]
+        },
+        {
+          "name": "Koovappady",
+          "grama_panchayats": [
+            {"name": "Asamannoor"},
+            {"name": "Mudakuzha"},
+            {"name": "Vengoor"},
+            {"name": "Rayamangalam"},
+            {"name": "Koovappady"},
+            {"name": "Okkal"}
+          ]
+        },
+        {
+          "name": "Vazhakulam",
+          "grama_panchayats": [
+            {"name": "Vengola"},
+            {"name": "Vazhakulam"},
+            {"name": "Kizhakkambalam"},
+            {"name": "Choornikkara"},
+            {"name": "Edathala"},
+            {"name": "Keezhmad"}
+          ]
+        },
+        {
+          "name": "Edappally",
+          "grama_panchayats": [
+            {"name": "Kadamakudy"},
+            {"name": "Cheranalloor"},
+            {"name": "Mulavukad"},
+            {"name": "Elankunnapuzha"}
+          ]
+        },
+        {
+          "name": "Vypin",
+          "grama_panchayats": [
+            {"name": "Narakal"},
+            {"name": "Nayarambalam"},
+            {"name": "Edavanakkad"},
+            {"name": "Pallippuram"},
+            {"name": "Kuzhuppilly"}
+          ]
+        },
+        {
+          "name": "Palluruthy",
+          "grama_panchayats": [
+            {"name": "Chellanam"},
+            {"name": "Kumbalanghi"},
+            {"name": "Kumbalam"}
+          ]
+        },
+        {
+          "name": "Mulanthuruthy",
+          "grama_panchayats": [
+            {"name": "Udayamperoor"},
+            {"name": "Mulanthuruthy"},
+            {"name": "Chottanikkara"},
+            {"name": "Edakkattuvayal"},
+            {"name": "Amballoor"},
+            {"name": "Maneed"}
+          ]
+        },
+        {
+          "name": "Vadavucode",
+          "grama_panchayats": [
+            {"name": "Poothrikka"},
+            {"name": "Thiruvaniyoor"},
+            {"name": "Vadavucode Puthencruz"},
+            {"name": "Mazhuvannoor"},
+            {"name": "Aikaranad"},
+            {"name": "Kunnathunad"}
+          ]
+        },
+        {
+          "name": "Kothamangalam",
+          "grama_panchayats": [
+            {"name": "Paingottoor"},
+            {"name": "Nellikuzhi"},
+            {"name": "Pindimana"},
+            {"name": "Kottappady"},
+            {"name": "Kavalangad"},
+            {"name": "Varappetty"},
+            {"name": "Keerampara"},
+            {"name": "Pothanicad"},
+            {"name": "Pallarimangalam"},
+            {"name": "Kuttampuzha"}
+          ]
+        },
+        {
+          "name": "Pampakuda",
+          "grama_panchayats": [
+            {"name": "Elanji"},
+            {"name": "Thirumarady"},
+            {"name": "Palakuzha"},
+            {"name": "Pampakuda"},
+            {"name": "Ramamangalam"}
+          ]
+        },
+        {
+          "name": "Parakkadavu",
+          "grama_panchayats": [
+            {"name": "Puthenvelikkara"},
+            {"name": "Chengamanad"},
+            {"name": "Nedumbassery"},
+            {"name": "Parakkadavu"},
+            {"name": "Kunnukara"},
+            {"name": "Sreemoolanagaram"}
+          ]
+        },
+        {
+          "name": "Muvattupuzha",
+          "grama_panchayats": [
+            {"name": "Avoly"},
+            {"name": "Arakuzha"},
+            {"name": "Valakom"},
+            {"name": "Paipra"},
+            {"name": "Kalloorkad"},
+            {"name": "Ayavana"},
+            {"name": "Manjalloor"},
+            {"name": "Marady"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipal Corporation", "name": "Kochi"},
+        {"type": "Municipality", "name": "Aluva"},
+        {"type": "Municipality", "name": "Angamaly"},
+        {"type": "Municipality", "name": "Eloor"},
+        {"type": "Municipality", "name": "Kalamassery"},
+        {"type": "Municipality", "name": "Koothattukulam"},
+        {"type": "Municipality", "name": "Kothamangalam"},
+        {"type": "Municipality", "name": "Maradu"},
+        {"type": "Municipality", "name": "Muvattupuzha"},
+        {"type": "Municipality", "name": "Paravur"},
+        {"type": "Municipality", "name": "Perumbavoor"},
+        {"type": "Municipality", "name": "Piravom"},
+        {"type": "Municipality", "name": "Thrikkakara"},
+        {"type": "Municipality", "name": "Thrippunithura"}
+      ]
+    },
+    {
+      "name": "Thrissur",
+      "code": "D080000",
+      "block_panchayats": [
+        {
+          "name": "Chavakkad",
+          "grama_panchayats": [
+            {"name": "Kadappuram"},
+            {"name": "Orumanayur"},
+            {"name": "Punnayur"},
+            {"name": "Punnayurkulam"},
+            {"name": "Vadakkekkad"}
+          ]
+        },
+        {
+          "name": "Chowannur",
+          "grama_panchayats": [
+            {"name": "Choondal"},
+            {"name": "Chowannur"},
+            {"name": "Kadavallur"},
+            {"name": "Kandanassery"},
+            {"name": "Kattakampal"},
+            {"name": "Porkulam"},
+            {"name": "Kadangode"},
+            {"name": "Velur"}
+          ]
+        },
+        {
+          "name": "Wadakanchery",
+          "grama_panchayats": [
+            {"name": "Desamangalam"},
+            {"name": "Erumapetty"},
+            {"name": "Mullurkara"},
+            {"name": "Thekkumkara"},
+            {"name": "Varavoor"}
+          ]
+        },
+        {
+          "name": "Pazhayannur",
+          "grama_panchayats": [
+            {"name": "Chelakkara"},
+            {"name": "Vallathol Nagar"},
+            {"name": "Kondazhy"},
+            {"name": "Panjal"},
+            {"name": "Pazhayannur"},
+            {"name": "Thiruvilwamala"}
+          ]
+        },
+        {
+          "name": "Ollukkara",
+          "grama_panchayats": [
+            {"name": "Madakkathara"},
+            {"name": "Nadathara"},
+            {"name": "Pananchery"},
+            {"name": "Puthur"}
+          ]
+        },
+        {
+          "name": "Puzhakkal",
+          "grama_panchayats": [
+            {"name": "Adat"},
+            {"name": "Avanur"},
+            {"name": "Kaiparambu"},
+            {"name": "Mulakunnathukavu"},
+            {"name": "Tholur"},
+            {"name": "Kolazhy"}
+          ]
+        },
+        {
+          "name": "Mullassery",
+          "grama_panchayats": [
+            {"name": "Elavally"},
+            {"name": "Mullassery"},
+            {"name": "Pavaratty"},
+            {"name": "Venkitangu"}
+          ]
+        },
+        {
+          "name": "Thalikulam",
+          "grama_panchayats": [
+            {"name": "Engandiyur"},
+            {"name": "Vatanappally"},
+            {"name": "Thalikulam"},
+            {"name": "Nattika"},
+            {"name": "Valapad"}
+          ]
+        },
+        {
+          "name": "Anthikad",
+          "grama_panchayats": [
+            {"name": "Anthikad"},
+            {"name": "Thanniyam"},
+            {"name": "Chazhur"},
+            {"name": "Manalur"},
+            {"name": "Arimpur"}
+          ]
+        },
+        {
+          "name": "Cherpu",
+          "grama_panchayats": [
+            {"name": "Avinissery"},
+            {"name": "Cherpu"},
+            {"name": "Paralam"},
+            {"name": "Vallachira"}
+          ]
+        },
+        {
+          "name": "Kodakara",
+          "grama_panchayats": [
+            {"name": "Alagappanagar"},
+            {"name": "Kodakara"},
+            {"name": "Mattathur"},
+            {"name": "Nenmanikkara"},
+            {"name": "Pudukad"},
+            {"name": "Thrikkur"},
+            {"name": "Varandarappilly"}
+          ]
+        },
+        {
+          "name": "Irinjalakuda",
+          "grama_panchayats": [
+            {"name": "Karalam"},
+            {"name": "Kattoor"},
+            {"name": "Muriyad"},
+            {"name": "Parappukkara"}
+          ]
+        },
+        {
+          "name": "Vellangallur",
+          "grama_panchayats": [
+            {"name": "Padiyur"},
+            {"name": "Poomangalam"},
+            {"name": "Puthenchira"},
+            {"name": "Vellangallur"},
+            {"name": "Velukara"}
+          ]
+        },
+        {
+          "name": "Mathilakam",
+          "grama_panchayats": [
+            {"name": "Edathiruthy"},
+            {"name": "Kaipamangalam"},
+            {"name": "Mathilakam"},
+            {"name": "Perinjanam"},
+            {"name": "Sreenarayanapuram"},
+            {"name": "Edavilangu"},
+            {"name": "Eriyad"}
+          ]
+        },
+        {
+          "name": "Mala",
+          "grama_panchayats": [
+            {"name": "Aloor"},
+            {"name": "Annamanada"},
+            {"name": "Kuzhur"},
+            {"name": "Mala"},
+            {"name": "Poyya"}
+          ]
+        },
+        {
+          "name": "Chalakudy",
+          "grama_panchayats": [
+            {"name": "Kadukutty"},
+            {"name": "Kodassery"},
+            {"name": "Koratty"},
+            {"name": "Meloor"},
+            {"name": "Pariyaram"},
+            {"name": "Athirappilly"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipal Corporation", "name": "Thrissur"},
+        {"type": "Municipality", "name": "Chalakudy"},
+        {"type": "Municipality", "name": "Chavakkad"},
+        {"type": "Municipality", "name": "Guruvayoor"},
+        {"type": "Municipality", "name": "Irinjalakuda"},
+        {"type": "Municipality", "name": "Kodungallur"},
+        {"type": "Municipality", "name": "Kunnamkulam"},
+        {"type": "Municipality", "name": "Wadakanchery"}
+      ]
+    },
+    {
+      "name": "Palakkad",
+      "code": "D090000",
+      "block_panchayats": [
+        {
+          "name": "Trithala",
+          "grama_panchayats": [
+            {"name": "Anakkara"},
+            {"name": "Chalissery"},
+            {"name": "Kappur"},
+            {"name": "Nagalassery"},
+            {"name": "Pattithara"},
+            {"name": "Thirumittacode"},
+            {"name": "Trithala"}
+          ]
+        },
+        {
+          "name": "Pattambi",
+          "grama_panchayats": [
+            {"name": "Koppam"},
+            {"name": "Kulukkallur"},
+            {"name": "Muthuthala"},
+            {"name": "Ongallur"},
+            {"name": "Paruthur"},
+            {"name": "Thiruvegappura"},
+            {"name": "Vilayur"}
+          ]
+        },
+        {
+          "name": "Ottapalam",
+          "grama_panchayats": [
+            {"name": "Ambalappara"},
+            {"name": "Ananganadi"},
+            {"name": "Chalavara"},
+            {"name": "Lakkidi - Perur"},
+            {"name": "Vaniamkulam"},
+            {"name": "Trikkaderi"},
+            {"name": "Vallapuzha"},
+            {"name": "Nellaya"}
+          ]
+        },
+        {
+          "name": "Sreekrishnapuram",
+          "grama_panchayats": [
+            {"name": "Kadampazhipuram"},
+            {"name": "Karimpuzha"},
+            {"name": "Pookkottukavu"},
+            {"name": "Sreekrishnapuram"},
+            {"name": "Vellinezhi"},
+            {"name": "Karakurussi"}
+          ]
+        },
+        {
+          "name": "Mannarkad",
+          "grama_panchayats": [
+            {"name": "Alanallur"},
+            {"name": "Karimba"},
+            {"name": "Kottopadam"},
+            {"name": "Kumaramputhur"},
+            {"name": "Kanhirapuzha"},
+            {"name": "Thachanattukara"},
+            {"name": "Tachampara"},
+            {"name": "Thenkara"}
+          ]
+        },
+        {
+          "name": "Attappady",
+          "grama_panchayats": [
+            {"name": "Agali"},
+            {"name": "Pudur"},
+            {"name": "Sholayoor"}
+          ]
+        },
+        {
+          "name": "Palakkad",
+          "grama_panchayats": [
+            {"name": "Keralassery"},
+            {"name": "Kongad"},
+            {"name": "Mankara"},
+            {"name": "Mannur"},
+            {"name": "Mundur"},
+            {"name": "Parali"},
+            {"name": "Pirayiri"}
+          ]
+        },
+        {
+          "name": "Kuzhalmannam",
+          "grama_panchayats": [
+            {"name": "Kottayi"},
+            {"name": "Kuthanur"},
+            {"name": "Kuzhalmannam"},
+            {"name": "Mathur"},
+            {"name": "Peringottukurissi"},
+            {"name": "Thenkurissi"},
+            {"name": "Kannadi"}
+          ]
+        },
+        {
+          "name": "Chittur",
+          "grama_panchayats": [
+            {"name": "Eruthenpathy"},
+            {"name": "Kozhinjampara"},
+            {"name": "Nallepilly"},
+            {"name": "Perumatty"},
+            {"name": "Vadakarapathy"},
+            {"name": "Elappully"},
+            {"name": "Polpully"}
+          ]
+        },
+        {
+          "name": "Kollengode",
+          "grama_panchayats": [
+            {"name": "Kollengode"},
+            {"name": "Koduvayur"},
+            {"name": "Muthalamada"},
+            {"name": "Pudunagaram"},
+            {"name": "Vadavannur"},
+            {"name": "Pattanchery"},
+            {"name": "Peruvemba"}
+          ]
+        },
+        {
+          "name": "Nemmara",
+          "grama_panchayats": [
+            {"name": "Ayalur"},
+            {"name": "Nelliyampathy"},
+            {"name": "Elavancherry"},
+            {"name": "Pallassana"},
+            {"name": "Melarcode"},
+            {"name": "Nemmara"},
+            {"name": "Vandazhy"}
+          ]
+        },
+        {
+          "name": "Alathur",
+          "grama_panchayats": [
+            {"name": "Alathur"},
+            {"name": "Erimayur"},
+            {"name": "Kavassery"},
+            {"name": "Kizhakkencherry"},
+            {"name": "Puducode"},
+            {"name": "Tarur"},
+            {"name": "Vadakkenchery"},
+            {"name": "Kannambra"}
+          ]
+        },
+        {
+          "name": "Malampuzha",
+          "grama_panchayats": [
+            {"name": "Akathethara"},
+            {"name": "Malampuzha"},
+            {"name": "Marutharode"},
+            {"name": "Puduppariyaram"},
+            {"name": "Pudusseri"},
+            {"name": "Kodumbu"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipality", "name": "Cherpulassery"},
+        {"type": "Municipality", "name": "Chittur-Thathamangalam"},
+        {"type": "Municipality", "name": "Mannarkad"},
+        {"type": "Municipality", "name": "Ottappalam"},
+        {"type": "Municipality", "name": "Palakkad"},
+        {"type": "Municipality", "name": "Pattambi"},
+        {"type": "Municipality", "name": "Shoranur"}
+      ]
+    },
+    {
+      "name": "Malappuram",
+      "code": "D100000",
+      "block_panchayats": [
+        {
+          "name": "Nilambur",
+          "grama_panchayats": [
+            {"name": "Chaliyar"},
+            {"name": "Chungathara"},
+            {"name": "Moothedam"},
+            {"name": "Vazhikkadavu"},
+            {"name": "Edakkara"},
+            {"name": "Pothukallu"}
+          ]
+        },
+        {
+          "name": "Kalikavu",
+          "grama_panchayats": [
+            {"name": "Amarambalam"},
+            {"name": "Karulai"},
+            {"name": "Kalikavu"},
+            {"name": "Chokkad"},
+            {"name": "Karuvarakundu"},
+            {"name": "Tuvvur"},
+            {"name": "Edappatta"}
+          ]
+        },
+        {
+          "name": "Wandoor",
+          "grama_panchayats": [
+            {"name": "Mampad"},
+            {"name": "Pandikkad"},
+            {"name": "Porur"},
+            {"name": "Thrikkalangodu"},
+            {"name": "Thiruvali"},
+            {"name": "Wandoor"}
+          ]
+        },
+        {
+          "name": "Kondotty",
+          "grama_panchayats": [
+            {"name": "Chelembra"},
+            {"name": "Cherukavu"},
+            {"name": "Pallikkal"},
+            {"name": "Vazhayur"},
+            {"name": "Vazhakkad"},
+            {"name": "Pulikkal"},
+            {"name": "Muthuvalloor"}
+          ]
+        },
+        {
+          "name": "Areacode",
+          "grama_panchayats": [
+            {"name": "Urangattiri"},
+            {"name": "Kavanur"},
+            {"name": "Keezhuparamba"},
+            {"name": "Pulpatta"},
+            {"name": "Cheacode"},
+            {"name": "Kuzhimanna"},
+            {"name": "Areacode"},
+            {"name": "Edavanna"}
+          ]
+        },
+        {
+          "name": "Malappuram",
+          "grama_panchayats": [
+            {"name": "Anakkayam"},
+            {"name": "Morayur"},
+            {"name": "Ponmala"},
+            {"name": "Pookkottur"},
+            {"name": "Kodur"},
+            {"name": "Othukkungal"}
+          ]
+        },
+        {
+          "name": "Perinthalmanna",
+          "grama_panchayats": [
+            {"name": "Aliparamba"},
+            {"name": "Elamkulam"},
+            {"name": "Melattur"},
+            {"name": "Keezhattur"},
+            {"name": "Thazhekkode"},
+            {"name": "Vettathur"},
+            {"name": "Pulamanthole"},
+            {"name": "Angadippuram"}
+          ]
+        },
+        {
+          "name": "Mankada",
+          "grama_panchayats": [
+            {"name": "Kuruva"},
+            {"name": "Mankada"},
+            {"name": "Makkaraparamba"},
+            {"name": "Moorkkanad"},
+            {"name": "Koottilangadi"},
+            {"name": "Puzhakkattiri"}
+          ]
+        },
+        {
+          "name": "Kuttippuram",
+          "grama_panchayats": [
+            {"name": "Athavanad"},
+            {"name": "Edayur"},
+            {"name": "Irimbiliyam"},
+            {"name": "Marakkara"},
+            {"name": "Kuttipuram"},
+            {"name": "Kalpakanchery"}
+          ]
+        },
+        {
+          "name": "Vengara",
+          "grama_panchayats": [
+            {"name": "Abdurahiman Nagar"},
+            {"name": "Edarikode"},
+            {"name": "Parappur"},
+            {"name": "Thennala"},
+            {"name": "Vengara"},
+            {"name": "Kannamangalam"},
+            {"name": "Oorakam"}
+          ]
+        },
+        {
+          "name": "Tirurangadi",
+          "grama_panchayats": [
+            {"name": "Thenhipalam"},
+            {"name": "Vallikkunnu"},
+            {"name": "Moonniyur"},
+            {"name": "Nannambra"},
+            {"name": "Peruvalloor"}
+          ]
+        },
+        {
+          "name": "Tanur",
+          "grama_panchayats": [
+            {"name": "Cheriyamundam"},
+            {"name": "Ozhur"},
+            {"name": "Tanalur"},
+            {"name": "Valavannur"},
+            {"name": "Ponmundam"},
+            {"name": "Niramaruthur"},
+            {"name": "Perumanna Klari"}
+          ]
+        },
+        {
+          "name": "Tirur",
+          "grama_panchayats": [
+            {"name": "Purathur"},
+            {"name": "Thalakkad"},
+            {"name": "Triprangode"},
+            {"name": "Vettom"},
+            {"name": "Thirunavaya"},
+            {"name": "Mangalam"}
+          ]
+        },
+        {
+          "name": "Ponnani",
+          "grama_panchayats": [
+            {"name": "Tavanur"},
+            {"name": "Vattamkulam"},
+            {"name": "Edapal"},
+            {"name": "Kaladi"}
+          ]
+        },
+        {
+          "name": "Perumpadappa",
+          "grama_panchayats": [
+            {"name": "Alamkode"},
+            {"name": "Maranchery"},
+            {"name": "Nannammukku"},
+            {"name": "Perumpadappa"},
+            {"name": "Veliancode"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipality", "name": "Kondotty"},
+        {"type": "Municipality", "name": "Kottakkal"},
+        {"type": "Municipality", "name": "Malappuram"},
+        {"type": "Municipality", "name": "Manjeri"},
+        {"type": "Municipality", "name": "Nilambur"},
+        {"type": "Municipality", "name": "Parappanangadi"},
+        {"type": "Municipality", "name": "Perinthalmanna"},
+        {"type": "Municipality", "name": "Ponnani"},
+        {"type": "Municipality", "name": "Tanur"},
+        {"type": "Municipality", "name": "Tirur"},
+        {"type": "Municipality", "name": "Tirurangadi"},
+        {"type": "Municipality", "name": "Valanchery"}
+      ]
+    },
+    {
+      "name": "Kozhikkode",
+      "code": "D110000",
+      "block_panchayats": [
+        {
+          "name": "Vatakara",
+          "grama_panchayats": [
+            {"name": "Azhiyur"},
+            {"name": "Chorode"},
+            {"name": "Eramala"},
+            {"name": "Onchiyam"}
+          ]
+        },
+        {
+          "name": "Tuneri",
+          "grama_panchayats": [
+            {"name": "Chekkiad"},
+            {"name": "Edacheri"},
+            {"name": "Purameri"},
+            {"name": "Tuneri"},
+            {"name": "Valayam"},
+            {"name": "Vanimal"},
+            {"name": "Nadapuram"}
+          ]
+        },
+        {
+          "name": "Kunnummal",
+          "grama_panchayats": [
+            {"name": "Kunnummal"},
+            {"name": "Kayakkody"},
+            {"name": "Kavilumpara"},
+            {"name": "Kuttiadi"},
+            {"name": "Maruthonkara"},
+            {"name": "Velom"},
+            {"name": "Narippatta"}
+          ]
+        },
+        {
+          "name": "Thodannur",
+          "grama_panchayats": [
+            {"name": "Ayancheri"},
+            {"name": "Villiappally"},
+            {"name": "Maniyur"},
+            {"name": "Thiruvallur"}
+          ]
+        },
+        {
+          "name": "Melady",
+          "grama_panchayats": [
+            {"name": "Thurayur"},
+            {"name": "Keezhariyur"},
+            {"name": "Thikkodi"},
+            {"name": "Meppayur"}
+          ]
+        },
+        {
+          "name": "Perambra",
+          "grama_panchayats": [
+            {"name": "Cheruvannur"},
+            {"name": "Nochad"},
+            {"name": "Changaroth"},
+            {"name": "Kayanna"},
+            {"name": "Koothali"},
+            {"name": "Perambra"},
+            {"name": "Chakkittapara"}
+          ]
+        },
+        {
+          "name": "Balussery",
+          "grama_panchayats": [
+            {"name": "Balussery"},
+            {"name": "Naduvannur"},
+            {"name": "Ulliyeri"},
+            {"name": "Kottur"},
+            {"name": "Unnikulum"},
+            {"name": "Panangad"},
+            {"name": "Koorachundu"}
+          ]
+        },
+        {
+          "name": "Panthalayani",
+          "grama_panchayats": [
+            {"name": "Chemanchery"},
+            {"name": "Arikkulam"},
+            {"name": "Moodadi"},
+            {"name": "Chengottukavu"},
+            {"name": "Atholi"}
+          ]
+        },
+        {
+          "name": "Chelannur",
+          "grama_panchayats": [
+            {"name": "Kakkodi"},
+            {"name": "Chelannur"},
+            {"name": "Kakkur"},
+            {"name": "Nanminda"},
+            {"name": "Narikunni"},
+            {"name": "Thalakulathur"}
+          ]
+        },
+        {
+          "name": "Koduvally",
+          "grama_panchayats": [
+            {"name": "Thiruvambadi"},
+            {"name": "Koodaranhi"},
+            {"name": "Kizhakkoth"},
+            {"name": "Madavoor"},
+            {"name": "Puduppady"},
+            {"name": "Thamarassery"},
+            {"name": "Omassery"},
+            {"name": "Kattippara"},
+            {"name": "Kodanchery"}
+          ]
+        },
+        {
+          "name": "Kunnamangalam",
+          "grama_panchayats": [
+            {"name": "Kodiyathur"},
+            {"name": "Kuruvattoor"},
+            {"name": "Mavoor"},
+            {"name": "Karassery"},
+            {"name": "Kunnamangalam"},
+            {"name": "Chathamangalam"},
+            {"name": "Peruvayal"},
+            {"name": "Perumanna"}
+          ]
+        },
+        {
+          "name": "Kozhikkode",
+          "grama_panchayats": [
+            {"name": "Kadalundi"},
+            {"name": "Olavanna"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipal Corporation", "name": "Kozhikode"},
+        {"type": "Municipality", "name": "Feroke"},
+        {"type": "Municipality", "name": "Koduvally"},
+        {"type": "Municipality", "name": "koyilandy"},
+        {"type": "Municipality", "name": "Mukkam"},
+        {"type": "Municipality", "name": "Payyoli"},
+        {"type": "Municipality", "name": "Ramanattukara"},
+        {"type": "Municipality", "name": "Vatakara"}
+      ]
+    },
+    {
+      "name": "Wayanad",
+      "code": "D120000",
+      "block_panchayats": [
+        {
+          "name": "Mananthavady",
+          "grama_panchayats": [
+            {"name": "Vellamunda"},
+            {"name": "Thirunelly"},
+            {"name": "Thondernad"},
+            {"name": "Edavaka"},
+            {"name": "Thavinhal"}
+          ]
+        },
+        {
+          "name": "Panamaram",
+          "grama_panchayats": [
+            {"name": "Panamaram"},
+            {"name": "Poothadi"},
+            {"name": "Mullankolly"},
+            {"name": "Pulpally"},
+            {"name": "Kaniyambetta"}
+          ]
+        },
+        {
+          "name": "Sulthan Bathery",
+          "grama_panchayats": [
+            {"name": "Meenangadi"},
+            {"name": "Nenmeni"},
+            {"name": "Ambalavayal"},
+            {"name": "Noolpuzha"}
+          ]
+        },
+        {
+          "name": "Kalpetta",
+          "grama_panchayats": [
+            {"name": "Kottathara"},
+            {"name": "Vengappally"},
+            {"name": "Vythiri"},
+            {"name": "Muttil"},
+            {"name": "Pozhuthana"},
+            {"name": "Thariode"},
+            {"name": "Padinharathara"},
+            {"name": "Meppadi"},
+            {"name": "Muppainad"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipality", "name": "Kalpetta"},
+        {"type": "Municipality", "name": "Kattappana"},
+        {"type": "Municipality", "name": "Mananthavady"},
+        {"type": "Municipality", "name": "Sulthan Bathery"}
+      ]
+    },
+    {
+      "name": "Kannur",
+      "code": "D130000",
+      "block_panchayats": [
+        {
+          "name": "Payyannur",
+          "grama_panchayats": [
+            {"name": "Kunhimangalam"},
+            {"name": "Ramanthali"},
+            {"name": "Karivellur Peralam"},
+            {"name": "Kankol - Alappadamba"},
+            {"name": "Eramam Kuttur"},
+            {"name": "Peringome Vayakkara"},
+            {"name": "Cherupuzha"}
+          ]
+        },
+        {
+          "name": "Kalliasseri",
+          "grama_panchayats": [
+            {"name": "Cheruthazham"},
+            {"name": "Ezhome"},
+            {"name": "Madayi"},
+            {"name": "Mattool"},
+            {"name": "Cherukunnu"},
+            {"name": "Kalliasseri"},
+            {"name": "Kannapuram"},
+            {"name": "Narath"}
+          ]
+        },
+        {
+          "name": "Taliparamba",
+          "grama_panchayats": [
+            {"name": "Pattuvam"},
+            {"name": "Chengalayi"},
+            {"name": "Kurumathur"},
+            {"name": "Pariyaram"},
+            {"name": "Chapparapadava"},
+            {"name": "Naduvil"},
+            {"name": "Udayagiri"},
+            {"name": "Alakode"},
+            {"name": "Kadannappally Panapuzha"}
+          ]
+        },
+        {
+          "name": "Irikkur",
+          "grama_panchayats": [
+            {"name": "Eruvessy"},
+            {"name": "Irikkur"},
+            {"name": "Malappattam"},
+            {"name": "Payyavoor"},
+            {"name": "Kuttiattoor"},
+            {"name": "Mayyil"},
+            {"name": "Padiyoor"},
+            {"name": "Ulikkal"}
+          ]
+        },
+        {
+          "name": "Kannur",
+          "grama_panchayats": [
+            {"name": "Chirakkal"},
+            {"name": "Valapattanam"},
+            {"name": "Azhikode"},
+            {"name": "Pappinisseri"}
+          ]
+        },
+        {
+          "name": "Edakkad",
+          "grama_panchayats": [
+            {"name": "Kadambur"},
+            {"name": "Chembilode"},
+            {"name": "Munderi"},
+            {"name": "Peralassery"},
+            {"name": "Kolachery"}
+          ]
+        },
+        {
+          "name": "Thalassery",
+          "grama_panchayats": [
+            {"name": "Dharmadam"},
+            {"name": "Eranholi"},
+            {"name": "Pinarayi"},
+            {"name": "New Mahe"},
+            {"name": "Muzhappilangad"},
+            {"name": "Anjarakandy"},
+            {"name": "Vengad"}
+          ]
+        },
+        {
+          "name": "Panoor",
+          "grama_panchayats": [
+            {"name": "Kadirur"},
+            {"name": "Chokli"},
+            {"name": "Mokeri"},
+            {"name": "Panniyannur"}
+          ]
+        },
+        {
+          "name": "Kuthuparamba",
+          "grama_panchayats": [
+            {"name": "Triprangottoor"},
+            {"name": "Chittariparamba"},
+            {"name": "Kunnothuparamba"},
+            {"name": "Mangattidam"},
+            {"name": "Pattiam"},
+            {"name": "Kottayam"}
+          ]
+        },
+        {
+          "name": "Iritty",
+          "grama_panchayats": [
+            {"name": "Aralam"},
+            {"name": "Ayyankunnu"},
+            {"name": "Keezhallur"},
+            {"name": "Thillankery"},
+            {"name": "Koodali"},
+            {"name": "Payam"}
+          ]
+        },
+        {
+          "name": "Peravoor",
+          "grama_panchayats": [
+            {"name": "Kanichar"},
+            {"name": "Kelakam"},
+            {"name": "Kottiyoor"},
+            {"name": "Muzhakkunnu"},
+            {"name": "Kolayad"},
+            {"name": "Malur"},
+            {"name": "Peravoor"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipal Corporation", "name": "Kannur"},
+        {"type": "Municipality", "name": "Anthoor"},
+        {"type": "Municipality", "name": "Iritty"},
+        {"type": "Municipality", "name": "Koothuparamba"},
+        {"type": "Municipality", "name": "Mattannur"},
+        {"type": "Municipality", "name": "Panoor"},
+        {"type": "Municipality", "name": "Payyannur"},
+        {"type": "Municipality", "name": "Sreekandapuram"},
+        {"type": "Municipality", "name": "Taliparamba"},
+        {"type": "Municipality", "name": "Thalassery"}
+      ]
+    },
+    {
+      "name": "Kasaragod",
+      "code": "D140000",
+      "block_panchayats": [
+        {
+          "name": "Manjeshwar",
+          "grama_panchayats": [
+            {"name": "Mangalpady"},
+            {"name": "Vorkady"},
+            {"name": "Puthige"},
+            {"name": "Meenja"},
+            {"name": "Manjeshwar"},
+            {"name": "Paivalike"},
+            {"name": "Enmakaje"}
+          ]
+        },
+        {
+          "name": "Karadka",
+          "grama_panchayats": [
+            {"name": "Bellur"},
+            {"name": "Kumbadaje"},
+            {"name": "Muliyar"},
+            {"name": "Karadka"},
+            {"name": "Delampady"},
+            {"name": "Bedadka"},
+            {"name": "Kuttikol"}
+          ]
+        },
+        {
+          "name": "Kasaragod",
+          "grama_panchayats": [
+            {"name": "Chengala"},
+            {"name": "Chemnad"},
+            {"name": "Madhur"},
+            {"name": "Mogral Puthur"},
+            {"name": "Badiadka"},
+            {"name": "Kumbla"}
+          ]
+        },
+        {
+          "name": "Kanhangad",
+          "grama_panchayats": [
+            {"name": "Udma"},
+            {"name": "Ajanur"},
+            {"name": "Madikai"},
+            {"name": "Pallikere"},
+            {"name": "Pullur Periya"}
+          ]
+        },
+        {
+          "name": "Parappa",
+          "grama_panchayats": [
+            {"name": "Balal"},
+            {"name": "Kodom Belur"},
+            {"name": "Panathady"},
+            {"name": "Kallar"},
+            {"name": "East Eleri"},
+            {"name": "West Eleri"},
+            {"name": "Kinanoor - Karinthalam"}
+          ]
+        },
+        {
+          "name": "Nileshwar",
+          "grama_panchayats": [
+            {"name": "Cheruvathur"},
+            {"name": "Kayyur Cheemeni"},
+            {"name": "Pilicode"},
+            {"name": "Trikarpur"},
+            {"name": "Valiyaparamba"},
+            {"name": "Padne"}
+          ]
+        }
+      ],
+      "urban_local_bodies": [
+        {"type": "Municipality", "name": "Kanhangad"},
+        {"type": "Municipality", "name": "Kasaragod"},
+        {"type": "Municipality", "name": "Nileshwar"}
+      ]
+    }
+  ]
+}
