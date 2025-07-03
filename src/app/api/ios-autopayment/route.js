@@ -25,27 +25,27 @@ export async function POST(req) {
 
     const body = await req.json();
     const { fullName,
-      location,
-      amount,
-      period,
-      phone,
-      email,
-      callbackUrl
-    } = body;
+       location,
+        amount,
+         period, 
+         phone,
+          email,
+          callbackUrl
+        } = body;
 
-    console.log(body);
+console.log(body);
 
-    // function standardizePhoneNumber(phone, defaultCountryCode = "+91") {
-    //   if (!phone) return "";
-    //   const cleanPhone = phone.replace(/\D/g, "");
-    //   if (phone.startsWith("+")) {
-    //     return phone;
-    //   }
-    //   return `${defaultCountryCode}${cleanPhone}`;
-    // }
+        function standardizePhoneNumber(phone, defaultCountryCode = "+91") {
+  if (!phone) return ""; 
+  const cleanPhone = phone.replace(/\D/g, "");
+  if (phone.startsWith("+")) {
+    return phone; 
+  }
+  return `${defaultCountryCode}${cleanPhone}`;
+}
 
-    // Standardize the phone number
-    // const standardizedPhone = standardizePhoneNumber(phone);
+// Standardize the phone number
+const standardizedPhone = standardizePhoneNumber(phone);
 
     if (!fullName || !location || !amount || !period || !phone) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
@@ -82,8 +82,8 @@ export async function POST(req) {
       notes: {
         razorpaySubscriptionId: "", // Subscription ID added here
         name: fullName || "Anonymous",
-        amount: amount, // Convert to rupees and store as string
-        phoneNumber: phone,
+        amount: amountInPaise, // Convert to rupees and store as string
+        phoneNumber: standardizedPhone,
         district: district || "",
         type: "Subscription-auto",
         method: "auto",

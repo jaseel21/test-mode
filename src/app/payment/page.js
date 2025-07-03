@@ -92,8 +92,8 @@ export default function PaymentPage() {
               period,
               razorpayPaymentId: razorpayPaymentId || "",
               status: "active",
-              subscriptionId:"subscriptionId" || "",
-              donationId: "donationId" || "",
+              subscriptionId: data.subscriptionId || "",
+              donationId: data.donationId || "",
             }).toString();
 
             const validCallbackUrl = callbackUrl.startsWith("http") || callbackUrl.startsWith("acme://")

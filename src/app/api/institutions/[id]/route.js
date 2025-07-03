@@ -1,33 +1,28 @@
+// app/api/institutions/[id]/route.js
 import connectToDatabase from '../../../../lib/db';
 import Institution from '../../../../models/Institution';
 import { NextResponse } from 'next/server';
-
+import { supabase } from '../../../../lib/supabaseInstitution';
+import { v4 as uuidv4 } from 'uuid';
 // GET for fetching a single institution
 export async function GET(request, { params }) {
-
-
-  console.log("so",request.body);
   try {
     await connectToDatabase();
 
     const { id } = params;
-    console.log("Institution ID:", id);
-
-    // Validate the ID
-    if (!id || typeof id !== 'string' || id.trim() === '') {
-      return NextResponse.json({ error: 'Institution ID is required and must be a valid string' }, { status: 400 });
+    if (!id) {
+      return NextResponse.json({ error: 'Institution ID is required' }, { status: 400 });
     }
 
-    // Await the findById query and use lean() to get a plain object
     const institution = await Institution.findById(id).lean();
     if (!institution) {
       return NextResponse.json({ error: 'Institution not found' }, { status: 404 });
     }
 
-    // Return the institution data
+    // No need to convert Buffer to base64 anymore
     return NextResponse.json(institution, { status: 200 });
   } catch (error) {
-    console.error('Error fetching institution:', error.message);
+    console.error('Error fetching institution:', error);
     return NextResponse.json(
       { error: 'Error fetching institution', details: error.message },
       { status: 500 }

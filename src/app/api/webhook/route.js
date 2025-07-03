@@ -422,28 +422,23 @@ export async function POST(req) {
             console.error("Twilio error for Subscription-auto donation:", twilioError.message);
           }
         }
-      } else if (type === "Subscription-charge") {
-  // Normalize phone number by removing country code if present
-  const normalizedPhone = phone.replace(/^(\+91|91)/, '');
-
-  const newDonation = await Sdonation.create({
-    donorId: donorId,
-    subscriptionId: subscriptionID,
-    phone: normalizedPhone,
-    name: fullName || "Anonymous",
-    amount,
-    email: emailAddress,
-    type: "Subscription",
-    period,
-    district,
-    panchayat,
-    razorpayPaymentId: paymentId,
-    razorpayOrderId: payment.order_id,
-    paymentStatus: "paid",
-    paymentDate: new Date(payment.created_at * 1000),
-  });
-
-
+      } else if (type==="Subscription-charge") {
+         const newDonation = await Sdonation.create({
+          donorId: donorId,
+          subscriptionId: subscriptionID,
+          phone: standardizedPhone,
+          name: fullName || "Anonymous",
+          amount,
+          email: emailAddress,
+          type: "Subscription",
+          period,
+          district,
+          panchayat,
+          razorpayPaymentId: paymentId,
+          razorpayOrderId: payment.order_id,
+          paymentStatus: "paid",
+          paymentDate: new Date(payment.created_at * 1000),
+        });
          await newDonation.save();
         console.log("Sdonation created:", newDonation);
 

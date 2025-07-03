@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import Razorpay from "razorpay";
 import connectToDatabase from "../../../lib/db";
+// import Donation from "../../../models/Donation"; // Uncomment and adjust if you have a Donation model
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
@@ -29,6 +30,7 @@ export async function POST(req) {
 
     // Connect to database
     await connectToDatabase();
+    
 
     // Validate Content-Type
     if (req.headers.get("content-type") !== "application/json") {
@@ -39,6 +41,8 @@ export async function POST(req) {
     let body;
     try {
       body = await req.json();
+          console.log("reqqqbody",body);
+
     } catch (error) {
       console.error("Body parsing error:", error);
       return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
@@ -55,6 +59,7 @@ export async function POST(req) {
       type,
       name,
       phone,
+      phoneNumber,
       email,
       district,
       panchayat,
@@ -63,8 +68,10 @@ export async function POST(req) {
       boxId = null,
       instituteId = null,
       campaignId = null,
-      callbackUrl,
+      callbackUrl
     } = body;
+
+    const updatedEmail = (email === '' || email === 'N/A') ? 'example@gmail.com' : email
 
     // Validate required fields
     const missingFields = [];
@@ -89,26 +96,24 @@ export async function POST(req) {
 
     // Standardize phone number
     const standardizedPhone = standardizePhoneNumber(phone);
+    const standardizedPhoneNumber =standardizePhoneNumber(phoneNumber);
 
     // Convert amount to paise
-    const amountInPaise = Math.round(amount ); // 
-    // 
-    // Convert to paise here
-    const normalizedPhone = phone.replace(/^(\+91|91)/, '');
-    // Create Razorpay order
+    const amountInPaise = Math.round(amount);
+
+    // Step 1: Create a Razorpay Order
     const orderData = {
       amount: amountInPaise,
       currency: "INR",
       receipt: `receipt_${Date.now()}`,
-      payment_capture: 1, // Auto-capture enabled
       notes: {
         fullName: name || "Anonymous",
+        donorId:donorId,
+        subscriptionID:subscriptionId,
         type: type || "General",
-        phone: normalizedPhone,
-        email: email || "",
-        period: period || "",
-        donorId:donorId, 
-        subscriptionID: subscriptionId || "",
+        phone: standardizedPhone || standardizedPhoneNumber,
+        email: updatedEmail || "",
+        period:period,
         district: district || "",
         panchayat: panchayat || "",
         message: message || "",
@@ -118,11 +123,12 @@ export async function POST(req) {
       },
     };
 
-    console.log("Creating Razorpay order with data:", orderData);
+    
+
+    console.log("Order data:", orderData);
     let orderResponse;
     try {
       orderResponse = await razorpay.orders.create(orderData);
-      console.log("Razorpay order created:", orderResponse);
     } catch (razorpayError) {
       console.error("Razorpay error:", razorpayError);
       return NextResponse.json(
@@ -134,11 +140,35 @@ export async function POST(req) {
     const orderId = orderResponse.id;
     if (!orderId) throw new Error("Failed to create order");
 
-    // Construct payment link
-    const paymentLink = `${process.env.NEXT_PUBLIC_API_URL}/ios-payment?orderId=${orderId}&amount=${amount}&name=${encodeURIComponent(name)}&phone=${encodeURIComponent(standardizedPhone)}&district=${encodeURIComponent(district)}&panchayat=${encodeURIComponent(panchayat)}&type=${encodeURIComponent(type)}&email=${encodeURIComponent(email || "")}&message=${encodeURIComponent(message || "")}&boxId=${boxId || ""}&instituteId=${instituteId || ""}&campaignId=${campaignId || ""}&callbackUrl=${encodeURIComponent(callbackUrl || "")}`;
+    // Step 2: Save order details to database (optional, uncomment if needed)
+    /*
+    const donationDetails = new Donation({
+      donorId: "507f1f77bcf86cd799439011", // Hardcoded for now, replace with actual donor ID
+      razorpayOrderId: orderId,
+      name,
+      amount: amountInPaise / 100,
+      phone: standardizedPhone,
+      email: email || null,
+      district,
+      panchayat,
+      type,
+      message: message || null,
+      boxId,
+      instituteId,
+      campaignId,
+      status: "pending",
+      createdAt: new Date(),
+    });
 
-    // Return response with payment link
+    await donationDetails.save();
+    */
+
+    // Step 3: Generate payment link
+    const paymentLink = `${process.env.NEXT_PUBLIC_API_URL}/ios-payment?orderId=${orderId}&amount=${amountInPaise / 100}&name=${encodeURIComponent(name)}&phone=${encodeURIComponent(standardizedPhone)}&district=${encodeURIComponent(district)}&panchayat=${encodeURIComponent(panchayat)}&type=${encodeURIComponent(type)}&email=${encodeURIComponent(email || "")}&message=${encodeURIComponent(message || "")}&boxId=${boxId || ""}&instituteId=${instituteId || ""}&campaignId=${campaignId || ""}&callbackUrl=${callbackUrl}`;
+
+    // Step 4: Return JSON with payment link
     return NextResponse.json({
+      // donationId: donationDetails._id,
       paymentLink,
       orderId,
       message: "Order created. Redirecting to payment page.",
